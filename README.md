@@ -49,4 +49,13 @@ if(distanceY >= mapTileSize || distanceY < 0)
 	distanceY += (-mapTileSize * Math.floor(distanceY/mapTileSize));
 }
 ```
+
+For example, distanceX = 95px:
+
 ![map translate per 40px](https://raw.githubusercontent.com/rafalswierczek/JS-2D-Tiled-Map/master/trans.png)
+
+It means that map has been translated two times and now it looks like:
+
+![map translate per 40px with fix](https://raw.githubusercontent.com/rafalswierczek/JS-2D-Tiled-Map/master/trans2.png)
+
+
