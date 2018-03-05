@@ -3,8 +3,9 @@
 ## `Project incomplete.`
 
 ## Explanations
-___
 ## tiles.js:
+Moving keys: W, A, S, D
+
 First script declare list of images:
 ```javascript
 let texture = [];
